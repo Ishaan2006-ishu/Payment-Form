@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>payment</title>
+    
+</head>
+<body>
+    <div class="container" >
+        <form action="">
+            <h1 class="main_heading">OM ENTERPRISES</h1>
+           
+
+
+            <p>NAME:* <input type="text" required placeholder="ishu varshney"><span class="s"></span></p>
+            <fieldset>
+                <legend>Gender</legend>
+    
+            <p>Male: <input type="radio" name="gender" id="male" ></p>
+            <p>Female: <input type="radio" name="gender" id="female"></p>
+            </fieldset>
+            <p>Address: <textarea name="address" id="address" placeholder="Enter your Address"></textarea>></p>
+            <p>Email <input type="email" name="email" class="special" id="email" placeholder="enter your email"></p>
+            <p>pincode: <input type="number" name="number" id="number" placeholder="Enter a number"></p>
+            <hr>
+            <h2>Payment form</h2>
+            <p>Card type:
+                <select name="cardtype" id="cardtype" required>
+                <option value="">---select card type----></option>
+                <option value="VISA">VISA</option>
+                <option value="RUPAY">RUPAY</option>
+                <option value="MASTECARD">MASTECARD</option>
+                </select>
+            </p>
+            <p>Card no: <input type="number" name="card no" id="card no" placeholder="enter a number"></p>
+            <p>Expire: <input type="date" name="experice" id="experince"></p>
+            <p>CVV: <input type="password" name="password" id="password" placeholder="enter a cvv"></p>
+            <span class="left">
+                <input type="submit" value="PAY NOW">
+
+            </span>
+            
+    
+                
+            
+            
+            
+        </form>
+    </div>
+</body>
+</html>
